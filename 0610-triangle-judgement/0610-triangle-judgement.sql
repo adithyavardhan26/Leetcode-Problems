@@ -1,2 +1,3 @@
 # Write your MySQL query statement below
-SELECT *,IF(x+y>z AND y+z>x AND x+z>y,"Yes","No") AS triangle FROM Triangle
+
+SELECT *, IF(x+y>z and y+z>x and z+x>y, "Yes", "No") as triangle FROM Triangle
